@@ -29,9 +29,6 @@ examples = [
 
 predictions = chain.apply(examples)
 
-print(predictions)
-
-llm = OpenAI(temperature=0)
 eval_chain = QAEvalChain.from_llm(llm)
 graded_outputs = eval_chain.evaluate(
     examples, predictions, question_key="question", prediction_key="text"

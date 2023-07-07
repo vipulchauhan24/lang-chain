@@ -15,4 +15,4 @@
 - *Note:- In order to activate environment in power shell run ```set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser```.
 
 ### Create .env file
-- Add ```OPENAI_API_KEY``` with your actula openai api key.
+- Add ```OPENAI_API_KEY``` with your actual openai api key.
